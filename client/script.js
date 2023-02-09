@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://cypress-u81g.onrender.com', {
+    const response = await fetch('https://cypress-doa5.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -120,4 +120,3 @@ form.addEventListener('keyup', (e) => {
         handleSubmit(e)
     }
 })
-
